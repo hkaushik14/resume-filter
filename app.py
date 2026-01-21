@@ -1,5 +1,5 @@
 import streamlit as st
-import fitz  # PyMuPDF
+import pymupdf as fitz
 from sentence_transformers import SentenceTransformer, util
 import requests
 import os
@@ -188,3 +188,4 @@ if use_hf_summary and resume_text:
                     st.warning("Could not get summary in expected format from Hugging Face.")
             else:
                 st.error(f"Hugging Face API error: {response.status_code} - {response.text}")
+
