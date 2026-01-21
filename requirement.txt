@@ -1,10 +1,10 @@
 streamlit
-PyMuPDF==1.23.8
+PyMuPDF==1.22.5
 sentence-transformers
-transformers
-requests
-python-dotenv
-spacy
+torch==2.0.1
+spacy==3.7.2
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 pyspellchecker
-torch
+google-generativeai
+
 
